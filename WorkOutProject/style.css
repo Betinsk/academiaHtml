@@ -1,0 +1,41 @@
+
+.container {
+    width: 80%;
+    height: 50%;
+    border: 1px solid gray;
+    margin: auto;
+}
+
+.paragrafo {
+    padding: 8px;
+   
+}
+
+@font-face {
+    font-family: helveticaLight;
+    src: url('fonts/Helvetica-Neue-Font/Helvetica\ Neue\ UltraLight/Helvetica Neue UltraLight.ttf') format("opentype");
+}
+
+ p{
+    font-family: helveticaLight;
+    font-weight: 300;
+    font-size: 1.2em;
+ }
+
+ .imgindex{
+    align-self: center;
+ }
+
+img {
+    align-content: center;
+ width: 70%;
+ 
+}
+
+h1 {
+    color: red;
+}
+
+.benefits {
+    margin: 8px;
+}
