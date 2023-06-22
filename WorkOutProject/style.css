@@ -11,6 +11,14 @@
    
 }
 
+.center {
+    text-align: center
+}
+
+.alingCenter {
+    margin:auto
+}
+
 @font-face {
     font-family: helveticaLight;
     src: url('fonts/Helvetica-Neue-Font/Helvetica\ Neue\ UltraLight/Helvetica Neue UltraLight.ttf') format("opentype");
