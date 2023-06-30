@@ -4,6 +4,11 @@
     height: 50%;
     border: 1px solid gray;
     margin: auto;
+    background-color: rgb(8, 123, 216);
+}
+
+body {
+    background-color: rgb(241, 224, 202);
 }
 
 .paragrafo {
@@ -12,11 +17,19 @@
 }
 
 .center {
-    text-align: center
+    text-align: center;
 }
 
+
 .alingCenter {
-    margin:auto
+    margin:auto;
+    overflow-x: scroll;
+}
+
+.tabela {
+    margin: 10px;
+    border: 1px solid gray;
+    overflow-x: scroll;
 }
 
 @font-face {
@@ -36,12 +49,12 @@
 
 img {
     align-content: center;
- width: 70%;
+    width: 70%;
  
 }
 
 h1 {
-    color: red;
+    color: rgb(252, 252, 252);
 }
 
 .benefits {
