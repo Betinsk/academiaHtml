@@ -10,20 +10,15 @@
 <body>
     <div class="container center"> <!-- Incio contanier-->
 
-        <div class="nav">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="">WorkOut</a></li>
-                <li><a href="benefits.html">beneficts</a></li>
-                <li><a href="">Contact</a></li>
-            </ul>
+        <div id ='nav'class="nav">
+           
         </div>
 
 
     <h1>Do it gym</h1>
 
     <div class="imgindex">
-        <img src="img/gmyModel.png">
+        <img src="img/8690646.webp">
 
     </div>
 
@@ -42,5 +37,32 @@
         </div>
         
     </div> <!-- Fim container-->
+
+    <div class="center rodape"> <!-- Rodapé-->
+
+        Todos os direitos reservados
+
+    </div>
+
 </body>
+<script>
+    const nav = document.getElementById('nav')
+
+        const ul = document.createElement('ul')
+        const li0= document.createElement('li')
+        const li1 = document.createElement('li')
+        const li2= document.createElement('li')
+
+        const a = document.createElement('a')
+
+        nav.appendChild(ul)
+        ul.appendChild(li0)
+        ul.appendChild(li1)
+        ul.appendChild(li2)
+        li1.appendChild(a)
+
+
+
+</script>
+
 </html>

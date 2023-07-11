@@ -2,13 +2,20 @@
 .container {
     width: 80%;
     height: 50%;
-    border: 1px solid gray;
     margin: auto;
-    background-color: rgb(8, 123, 216);
+    background: rgb(6, 129, 230, 0.7);
+    /*220, 238, 248 cor boa*/
+    border-radius: 2%;
 }
 
 body {
     background-color: rgb(241, 224, 202);
+    
+}
+
+a {
+    text-decoration: none;
+    font-family: helveticaLight;
 }
 
 .paragrafo {
@@ -34,13 +41,14 @@ body {
 
 @font-face {
     font-family: helveticaLight;
-    src: url('fonts/Helvetica-Neue-Font/Helvetica\ Neue\ UltraLight/Helvetica Neue UltraLight.ttf') format("opentype");
+    src: url('../fonts/Helvetica-Neue-Font/Helvetica\ Neue\ UltraLight/Helvetica Neue UltraLight.ttf') format("opentype");
 }
 
  p{
     font-family: helveticaLight;
     font-weight: 300;
     font-size: 1.2em;
+    color: rgb(255, 255, 255);
  }
 
  .imgindex{
@@ -49,14 +57,23 @@ body {
 
 img {
     align-content: center;
-    width: 70%;
+    width: 50%;
  
 }
 
 h1 {
     color: rgb(252, 252, 252);
+    font-family: helveticaLight;
 }
 
 .benefits {
     margin: 8px;
+}
+
+.rodape {
+    background-color: blanchedalmond;
+    padding: 25px;
+    font-family: helveticaLight;
+    font-weight: 600;
+
 }
