@@ -6,15 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Do it</title>
     <link rel="stylesheet" href="styles/style.css">
+ 
 </head>
 <body>
+
+    <div id ='nav'class="nav">
+           
+        <!--
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="">WorkOut</a></li>
+            <li><a href="benefits.html">beneficts</a></li>
+            <li><a href="">Contact</a></li>
+        -->
+
+    </div>
+
+
+
+    <div class="divBanner">
+        <img class="banner" src="img/banner-01.jpg">
+    </div>
+
     <div class="container center"> <!-- Incio contanier-->
 
-        <div id ='nav'class="nav">
-           
-        </div>
-
-
+  
     <h1>Do it gym</h1>
 
     <div class="imgindex">
@@ -28,7 +43,7 @@
     <hr>
 
         <div class="center">
-            <h1><a href=''>Monday</a></h1>
+            <h1><a href='./views/chest.html'>Monday</a></h1>
             <h1><a href=''>Tuesday </a></h1>
             <h1><a href=''>Wednesday </a></h1>
             <h1><a href=''>Thursday</a></h1>
@@ -41,27 +56,22 @@
     <div class="center rodape"> <!-- Rodapé-->
 
         Todos os direitos reservados
+       
+      <div class="menuRodape">
+
+        <ul>
+            <li>Contato</li>
+            <li>Nossos locais</li>
+        </ul>
+
+    </div>  
 
     </div>
 
 </body>
-<script>
-    const nav = document.getElementById('nav')
+    
 
-        const ul = document.createElement('ul')
-        const li0= document.createElement('li')
-        const li1 = document.createElement('li')
-        const li2= document.createElement('li')
-
-        const a = document.createElement('a')
-
-        nav.appendChild(ul)
-        ul.appendChild(li0)
-        ul.appendChild(li1)
-        ul.appendChild(li2)
-        li1.appendChild(a)
-
-
+<script src="index.js">
 
 </script>
 

@@ -1,3 +1,26 @@
+body {
+    background-color: rgb(241, 224, 202);
+    margin: 0;
+    
+}
+
+.nav {
+    background-color: #fff;
+    
+}
+
+.divBanner {
+    padding: 5px;
+    margin: 10px;
+}
+
+.banner{
+    width: 100%;
+    mix-blend-mode: hard-light;
+    opacity: 0.9;
+    height: auto;
+
+}
 
 .container {
     width: 80%;
@@ -6,11 +29,7 @@
     background: rgb(6, 129, 230, 0.7);
     /*220, 238, 248 cor boa*/
     border-radius: 2%;
-}
-
-body {
-    background-color: rgb(241, 224, 202);
-    
+    border: 3px double blue;
 }
 
 a {
@@ -27,16 +46,15 @@ a {
     text-align: center;
 }
 
-
 .alingCenter {
     margin:auto;
-    overflow-x: scroll;
 }
 
 .tabela {
     margin: 10px;
-    border: 1px solid gray;
+    border: 1px double gray;
     overflow-x: scroll;
+    background-color: rgb(235, 220, 220);
 }
 
 @font-face {
@@ -55,15 +73,17 @@ a {
     align-self: center;
  }
 
-img {
+ .imgindex img {
     align-content: center;
     width: 50%;
+    border: 3px double rgb(6, 129, 230, 0.7);
+
  
 }
 
 h1 {
     color: rgb(252, 252, 252);
-    font-family: helveticaLight;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .benefits {
@@ -75,5 +95,8 @@ h1 {
     padding: 25px;
     font-family: helveticaLight;
     font-weight: 600;
+}
 
+ .rodape .menuRodape {
+    text-align: left;
 }
