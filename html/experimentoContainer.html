@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experimento container</title>
+</head>
+    <style>
+
+
+            .navBar {
+                height: 50px;
+                border: 1px solid black;
+                margin-bottom: 5px;
+                width: 1200px; /* Tamanho fixo do contêiner */
+                max-width: 100%;
+                margin: auto;
+                box-sizing: border-box;
+            }
+
+           .containerPrincipal {
+            border: 1px solid gray;
+            padding: 10px;
+            display: flex;
+            width: 1200px; /* Tamanho fixo do contêiner */
+            max-width: 100%;
+            margin: auto;
+            box-sizing: border-box;
+           }
+
+           .direita{
+            flex-direction: column;
+            border: 1px solid gray;
+            display: flex;
+            width: 400px;
+            height: 800px;
+
+
+           }
+
+           .containerDireita {
+            border: 1px solid gray;
+             margin: 3px;         
+             flex: 1; /* A div1 irá ocupar todo o espaço disponível */
+             max-width: 100%;
+
+           }
+            .containerEsquerda {
+            border: 1px solid gray;
+            margin: 5px ;
+           }
+
+            @media (max-width:600px) {
+                .containerPrincipal {
+                    flex-direction: column;
+
+                }
+            }
+
+    </style>
+
+<body>
+
+    <nav class="navBar">
+
+        <h1>NavBar</h1>
+
+    </nav>
+
+    <div class="containerPrincipal">
+
+        <div class="direita">
+        <div class="containerDireita">
+
+            <h1>div direita</h1>
+            <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+            </p>
+        </div>
+
+        <div class="containerDireita">
+
+            <h1>div direita</h1>
+            <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+            </p>
+        </div>
+    </div>
+
+        <div class="containerEsquerda">
+            <h1>div esquerda</h1>
+            <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+            </p>
+        </div>
+
+
+    </div>
+    
+</body>
+</html>
