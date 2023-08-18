@@ -15,6 +15,8 @@ const a1 = document.createElement('a')
 a1.href = 'C:/Users/Betinho/Documents/PROJETOS/academiaHtml/WorkOutProject/views/benefits.html'
 a1.innerHTML = 'Benefits'
 const a2 = document.createElement('a')
+a2.href = 'C:/Users/Betinho/Documents/PROJETOS/academiaHtml/WorkOutProject/views/locais.html'
+a2.innerHTML = 'Places'
 const a3 = document.createElement('a')
 
 nav.appendChild(ul)
