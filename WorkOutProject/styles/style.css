@@ -1,26 +1,26 @@
 body {
-    background-color: rgb(241, 224, 202);
     margin: 0;
     
 }
 
 .nav {
     background-color: #fff;
-    
 }
 
 .divBanner {
     padding: 5px;
     margin: 10px;
+
 }
 
 .banner{
     width: 100%;
     mix-blend-mode: hard-light;
     opacity: 0.9;
-    height: auto;
-
+    height: 350px;
+    object-fit: cover; /* Redimensiona para cobrir o espaço mantendo a proporção */
 }
+
 
 .container {
     width: 80%;
@@ -30,6 +30,7 @@ body {
     /*220, 238, 248 cor boa*/
     border-radius: 2%;
     border: 3px double blue;
+    
 }
 
 a {
