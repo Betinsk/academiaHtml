@@ -6,12 +6,13 @@
   }
 
 body {
-    background: rgb(229, 229, 252);
+    background: rgb(255, 255, 255);
 
 }
 
 .cards-container {
     display: flex;
+    box-sizing: border-box;
 
 }
 
@@ -98,7 +99,6 @@ body {
     justify-content: center;
     display: flex;
     margin-top: 15px;
-    
 }
 
 .card-footer button {

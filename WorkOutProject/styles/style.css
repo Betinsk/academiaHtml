@@ -1,39 +1,29 @@
-body {
-    margin: 0;
-    
-}
 
-.nav {
+body{
     background-color: #fff;
 }
 
 .divBanner {
     padding: 5px;
-    margin: 10px;
 
 }
 
 .banner{
     width: 100%;
-    mix-blend-mode: hard-light;
-    opacity: 0.9;
-    height: 350px;
+    height: 450px;
     object-fit: cover; /* Redimensiona para cobrir o espaço mantendo a proporção */
+    object-position: center top;
 }
-
 
 .container {
     width: 80%;
     height: 50%;
     margin: auto;
-    background: rgb(6, 129, 230, 0.7);
     /*220, 238, 248 cor boa*/
-    border-radius: 2%;
-    border: 3px double blue;
-    
+    border-radius: 8px;
 }
 
-a {
+.container a {
     text-decoration: none;
     font-family: helveticaLight;
 }
@@ -63,7 +53,8 @@ a {
     src: url('../fonts/Helvetica-Neue-Font/Helvetica\ Neue\ UltraLight/Helvetica Neue UltraLight.ttf') format("opentype");
 }
 
- p{
+ 
+.container p{
     font-family: helveticaLight;
     font-weight: 300;
     font-size: 1.2em;
@@ -77,7 +68,6 @@ a {
  .imgindex img {
     align-content: center;
     width: 50%;
-    border: 3px double rgb(6, 129, 230, 0.7);
 
  
 }

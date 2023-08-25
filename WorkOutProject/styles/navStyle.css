@@ -1,34 +1,119 @@
 /* styles.css */
+@font-face {
+  font-family: 'Raleway';
+  src: url('../fonts/Raleway/static/Raleway-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 
-body {
-    margin: 0;
+  .hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
   }
-  
+
+  .bar {
+    width: 24px;
+    height: 3px;
+    background-color: rgb(27, 27, 27);
+    margin: 3px 0;
+  }
+    
   .nav {
-    background-color: #f3f1f1;
-  }
-  
+    background-color: #fff;
+    width: 80%; 
+    margin: auto;
+    display: flex;
+    gap: 35px;
+    box-sizing: border-box;
+    margin-bottom: 25px;
+    box-shadow: 0px 0px 3px  rgb(184, 180, 180);
+    padding: 10px;
+    align-items: flex-end;
+
+
+}
   .nav ul {
     list-style: none;
-    display: flex;
-    justify-content: space-around;
     padding: 0;
     margin: 0;
+    align-items: flex-end;
+
+    display: flex;
+    gap: 35px;
   }
   
   .nav li {
     padding: 10px;
   }
   
-  .nav  a {
+  .nav a {
     text-decoration: none;
+    font-family: 'Raleway', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
     color: rgb(0, 0, 0);
   }
+
+  .nav span {
+    font-family: 'Raleway', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    font-weight: 700;
+  }
   
+  .divImg img{
+    width: 100px;
+    height: 100px;
+    display: block;
+  }
+
+  #ul  {
+    display: none
+
+  }
+  /* Estilos para o botão quando o conteúdo está visível */
+  .visible  {
+    display: flex !important;
+    direction: column;
+  }
+
+
   /* Estilo para telas menores (responsivo) */
-  @media (max-width: 600px) {
-    nav {
+  @media (max-width: 900px) {
+    .nav {
+      display: block;
       flex-direction: column;
     }
+
+  .nav ul {
+    align-items: center;
+    display: column;
+  }
+
+    .nav li {
+      padding: 3px;
+     
+    }
+
+    .hamburger {
+      display: block;
+      flex-direction: column;
+      cursor: pointer;
+      position: absolute;
+      top: 70px;
+      right: 125px;
+    }
+
+    .divImg {
+      display: flex;
+      margin-bottom: 10px;
+
+    }
+
+    .divImg img {
+      margin: 0px;
+    }
+
   }
   
