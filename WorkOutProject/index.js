@@ -78,6 +78,7 @@ function atualizarLarguraNavegador() {
   // Exemplo: Alterar o conteúdo da página com base na largura do navegador
   if (larguraNavegador > 900) {
     // Código a ser executado para telas largas
+    divUl.classList.remove('visible');
     menuHamburguer = false
 
   } else if (larguraNavegador < 750 && menuHamburguer ) {
