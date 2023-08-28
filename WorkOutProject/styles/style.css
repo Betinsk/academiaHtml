@@ -1,4 +1,10 @@
-
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway/static/Raleway-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
 body{
     background-color: #fff;
 }
@@ -25,7 +31,12 @@ body{
 
 .container a {
     text-decoration: none;
-    font-family: helveticaLight;
+    font-family: 'Raleway';
+}
+
+.membership {
+    width: 45%;
+    margin: auto;
 }
 
 .paragrafo {
@@ -41,24 +52,11 @@ body{
     margin:auto;
 }
 
-.tabela {
-    margin: 10px;
-    border: 1px double gray;
-    overflow-x: scroll;
-    background-color: rgb(235, 220, 220);
-}
 
-@font-face {
-    font-family: helveticaLight;
-    src: url('../fonts/Helvetica-Neue-Font/Helvetica\ Neue\ UltraLight/Helvetica Neue UltraLight.ttf') format("opentype");
-}
-
- 
 .container p{
-    font-family: helveticaLight;
+    font-family: 'Raleway';
     font-weight: 300;
     font-size: 1.2em;
-    color: rgb(255, 255, 255);
  }
 
  .imgindex{
@@ -69,12 +67,10 @@ body{
     align-content: center;
     width: 50%;
 
- 
 }
 
 h1 {
-    color: rgb(252, 252, 252);
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Raleway';
 }
 
 .benefits {

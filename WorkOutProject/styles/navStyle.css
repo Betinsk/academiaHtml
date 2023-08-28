@@ -73,7 +73,11 @@
       display: block;
     }
       /* Estilos para o botão quando o conteúdo está visível */
-  .visible  {
+  .visible {
+    display: block !important;
+  }
+
+  .visible ul {
     display: block !important;
     padding: 10px;
   }
@@ -84,6 +88,7 @@
 
     .nav li {
       padding: 3px;
+
     }
 
     .hamburger {
