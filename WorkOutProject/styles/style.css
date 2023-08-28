@@ -37,6 +37,16 @@ body{
 .membership {
     width: 45%;
     margin: auto;
+
+}
+
+.videos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.videos video {
+    width: 600px;
 }
 
 .paragrafo {
@@ -75,15 +85,39 @@ h1 {
 
 .benefits {
     margin: 8px;
+    font-family: 'Raleway';
+
 }
 
 .rodape {
     background-color: blanchedalmond;
     padding: 25px;
-    font-family: helveticaLight;
+    font-family: 'Raleway';
     font-weight: 600;
 }
 
  .rodape .menuRodape {
     text-align: left;
 }
+
+
+  /* Estilo para telas menores (responsivo) */
+  @media (max-width: 1300px) {
+    
+    .videos {
+        display: block;
+        flex-direction: column; 
+         }
+
+         .videos video {
+            width: 100%;
+             }
+    }
+
+    @media (max-width: 900px) {
+    
+        h1 {
+            font-family: 'Raleway';
+            font-size: 100%;
+        }
+    }
